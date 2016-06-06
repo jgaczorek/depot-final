@@ -1,0 +1,58 @@
+pl:
+
+  number:
+    currency:
+      format:
+        unit:      "zł"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format:    "%nzł"
+
+  activerecord:
+    models:
+      order:       "Zamówienie"
+    attributes:
+      order:
+        address:   "Adres"
+        name:      "Imię"
+        email:     "E-mail"
+        pay_type:  "Zapłać z"
+  errors:
+    template:
+      body:        "Były problemy z następujących sekcjach:"
+      header:       
+        one:       "1 błąd zabronił ten %{model} od zapisania"
+        other:     "%{count} błędy zabronił tej %{model} od zapisania"
+
+  layouts:
+    application:
+      title:       "Pragmatyczne Regał"
+      home:        "Strona Główna"
+      questions:   "Pytania"
+      news:        "Wiadomość"
+      contact:     "Kontakt"
+
+  carts:
+    cart:
+      title:       "Twój Koszyk"
+      empty:       "Wypróżnij Koszka"
+      checkout:    "Potwierdzenie"
+
+  store:
+    index:
+      title_html:  "Twój Pragmatyczny Katalog"
+      add_html:    "Dodaj do Koszyka"
+
+  orders:
+    new:
+      legend:       "Proszę Wpisaj Twoje Blisze Dane"
+    form:
+      name:         "Imię"
+      address_html: "Adres"
+      email:        "E-mail"
+      pay_type:     "Zapłać z"
+      pay_prompt_html: "Wybierz metodę płatności"
+      submit:       "Zamów"
+
+  thanks:          "Dziękuję za Twoje zamówienie"
